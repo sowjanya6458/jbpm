@@ -1,0 +1,5 @@
+<kmodule xmlns="http://www.drools.org/xsd/kmodule" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <kbase name="kbase-top" default="true" eventProcessingMode="stream" equalsBehavior="identity" packages="*" scope="javax.enterprise.context.ApplicationScoped" includes="defaultKieBase">
+    <ksession name="ksession-top" type="stateful" default="true" clockType="realtime" scope="javax.enterprise.context.ApplicationScoped"/>
+  </kbase>
+</kmodule>
